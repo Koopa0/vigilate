@@ -1,0 +1,77 @@
+{{extends "./layouts/layout.jet"}}
+
+{{block css()}}
+
+{{end}}
+
+
+{{block cardTitle()}}
+    Schedule
+{{end}}
+
+
+{{block cardContent()}}
+    <div class="row">
+        <div class="col">
+            <ol class="breadcrumb mt-1">
+                <li class="breadcrumb-item"><a href="/admin/overview">Overview</a></li>
+                <li class="breadcrumb-item active">Schedule</li>
+            </ol>
+            <h4 class="mt-4">Schedule</h4>
+            <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+
+            <table class="table table-condensed table-striped" id="schedule-table">
+                <thead>
+                <tr>
+                    <th>Host</th>
+                    <th>Service</th>
+                    <th>Schedule</th>
+                    <th>Previous</th>
+                    <th>Next</th>
+                </tr>
+                </thead>
+                <tbody id="schedule-table-body">
+                    {{if len(items) > 0}}
+                    {{range items}}
+                    <tr class="schedule-row" id="schedule-{{.ID}}">
+                        <td>{{.Host}}</td>
+                        <td>{{.Service}}</td>
+                        <td>{{.ScheduleText}}</td>
+                        <td>
+                            {{if dateAfterYearOne(.LastRunFromHS)}}
+                                {{dateFromLayout(.LastRunFromHS, "2006-01-02 3:04:05 PM")}}
+                            {{else}}
+                                Pending...
+                            {{end}}
+                        </td>
+                        <td>
+                            {{if dateAfterYearOne(.Entry.Next) }}
+                                {{dateFromLayout(.Entry.Next, "2006-01-02 3:04:05 PM")}}
+                            {{else}}
+                                Pending...
+                            {{end}}
+                        </td>
+                    </tr>
+                    {{end}}
+                    {{else}}
+                    <tr>
+                        <td colspan="5">
+                            No scheduled checks
+                        </td>
+                    </tr>
+                    {{end}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+{{end}}
+
+{{block js()}}
+
+{{end}}

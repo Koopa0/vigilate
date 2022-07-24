@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="291eba58-b02e-4ac8-b49c-95c1410d6dc1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Celeritas.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/celertias.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/cmd/cli/auth.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/cmd/cli/copy-file.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/cmd/cli/helpers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/cmd/cli/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/cmd/cli/make.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/cmd/cli/new.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/cmd/cli/templates/data/remember_token.go.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/cmd/cli/templates/env.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/cmd/cli/templates/go.mod.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/cmd/cli/templates/middleware/remember.go.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/cmd/cli/templates/migrations/auth_table.mysql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/cmd/cli/templates/migrations/auth_table.postgres.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/cmd/cli/templates/migrations/migration.postgres.down.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/cmd/cli/templates/migrations/migration.postgres.up.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/cmd/cli/templates/views/forgot.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/cmd/cli/templates/views/login.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/cmd/cli/templates/views/reset-password.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/dist/celeritas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/driver.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/helpers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/middleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/migrations.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/response-utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/routes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/session/session.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/session/session_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/session/setup_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/types.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Celeritas/validator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Go-API/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Go-API/.idea/go-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Go-API/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Go-API/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Go-API/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Go-API/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Go-API/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Go-API/migrations/20220718081558_create_create_user_tables.down.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Go-API/migrations/20220718081558_create_create_user_tables.up.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Go-API/migrations/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dist/celeritas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-concurrency/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-concurrency/.idea/go-concurrency.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-concurrency/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-concurrency/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-concurrency/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-concurrency/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/.idea/go-micro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/authentication-service/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/authentication-service/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/broker-service/broker-service.dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/broker-service/brokerApp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/broker-service/cmd/api/handlers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/broker-service/cmd/api/helpers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/broker-service/cmd/api/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/broker-service/cmd/api/routes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/broker-service/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/broker-service/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/front-end/cmd/web/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/front-end/cmd/web/templates/base.layout.gohtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/front-end/cmd/web/templates/footer.partial.gohtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/front-end/cmd/web/templates/header.partial.gohtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/front-end/cmd/web/templates/test.page.gohtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/front-end/frontApp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/front-end/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/project/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/project/db-data/mongo/diagnostic.data/metrics.2022-06-06T05-54-06Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/project/db-data/mongo/diagnostic.data/metrics.2022-07-18T07-12-55Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/project/db-data/mongo/diagnostic.data/metrics.interim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/project/db-data/postgres/pg_stat_tmp/db_0.stat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/project/db-data/postgres/pg_stat_tmp/db_16384.stat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-micro/project/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/convenience.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/data/integration_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/data/models.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/data/models_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/data/remember_token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/data/setup_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/handlers/auth-handlers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/handlers/cache-handlers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/handlers/convenience.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/handlers/form-val-handlers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/handlers/handlers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/init-celeritas.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/mail/password-reset.html.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/mail/password-reset.plain.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/middleware/middleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/middleware/remember.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/public/ico/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/public/ico/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/public/ico/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/public/ico/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/public/ico/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/public/ico/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/public/ico/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/public/images/celeritas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/routes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/github.com/bwmarrin/go-alone/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/github.com/bwmarrin/go-alone/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/github.com/bwmarrin/go-alone/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/github.com/bwmarrin/go-alone/goalone.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/github.com/bwmarrin/go-alone/token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/github.com/koopa0/Celeritas/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/github.com/koopa0/Celeritas/urlsigner/signer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/crypto/blake2b/blake2b.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/crypto/blake2b/blake2bAVX2_amd64.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/crypto/blake2b/blake2bAVX2_amd64.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/crypto/blake2b/blake2b_amd64.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/crypto/blake2b/blake2b_amd64.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/crypto/blake2b/blake2b_generic.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/crypto/blake2b/blake2b_ref.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/crypto/blake2b/blake2x.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/crypto/blake2b/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/asm_aix_ppc64.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/byteorder.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_aix.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_arm.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_arm64.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_arm64.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_gc_arm64.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_gc_s390x.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_gc_x86.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_gccgo_arm64.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_gccgo_s390x.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_gccgo_x86.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_gccgo_x86.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_linux.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_linux_arm.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_linux_arm64.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_linux_mips64x.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_linux_noinit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_linux_ppc64x.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_linux_s390x.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_loong64.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_mips64x.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_mipsx.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_netbsd_arm64.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_other_arm.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_other_arm64.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_other_mips64x.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_ppc64x.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_riscv64.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_s390x.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_s390x.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_wasm.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_x86.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_x86.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_zos.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/cpu_zos_s390x.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/hwcap_linux.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/syscall_aix_gccgo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/vendor/golang.org/x/sys/cpu/syscall_aix_ppc64_gc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/views/cache.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/views/forgot.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/views/form.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/views/home.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/views/home.page.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/views/jet-template.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/views/layouts/base.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/views/login.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/views/reset-password.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myapp/views/session.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playground/cmd/web/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playground/cmd/web/middleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playground/cmd/web/routes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playground/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playground/pkg/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playground/pkg/handlers/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playground/pkg/models/templatedata.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playground/pkg/render/render.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playground/templates/about.page.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playground/templates/base.layout.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playground/templates/home.page.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_connect/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_connect/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_connect/.idea/test_connect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_connect/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_connect/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_connect/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_connect/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vigilate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/web/jobs-mail.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/web/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/web/middleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/web/routes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/web/setup-app.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/certificateutils/certificateutils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/channeldata/maildata.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/driver/driver.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/handlers/all-services-status-pages.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/handlers/authentication-handlers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/handlers/handlers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/handlers/handlers_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/handlers/perform-checks.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/handlers/pusher.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/handlers/schedule.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/handlers/setup_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/handlers/start-monitoring.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/helpers/helpers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/helpers/send-mail.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/helpers/template-functions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/models/models.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/repository/dbrepo/dbrepo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/repository/dbrepo/host_postgresql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/repository/dbrepo/preferences.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/repository/dbrepo/test-repo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/repository/dbrepo/users_postgresql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/repository/repository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/sms/twilio.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/templates/templates.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ipe/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ipe/ipe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ipe/ipe.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20200623215943_create_trigger.postgres.down.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20200623215943_create_trigger.postgres.up.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20200623220522_create_users_table.down.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20200623220522_create_users_table.up.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20200624122624_SeedUsersTable.down.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20200624122624_SeedUsersTable.up.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20200626104749_create_preferences_table.down.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20200626104749_create_preferences_table.up.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20200626104846_seed_preferences_table.down.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20200626104846_seed_preferences_table.up.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20200901080946_create_remember_tokens_table.down.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20200901080946_create_remember_tokens_table.up.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210204124904_create_sessions_table.postgres.down.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210204124904_create_sessions_table.postgres.up.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210212174844_create_hosts_table.down.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210212174844_create_hosts_table.up.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210212175410_create_services_table.down.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210212175410_create_services_table.up.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210212175601_create_host_services_table.down.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210212175601_create_host_services_table.up.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210215153912_add_status_to_host_services_table.down.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210215153912_add_status_to_host_services_table.up.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210308174029_create_events_table.down.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210308174029_create_events_table.up.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210308190943_add_last_message_to_host_services.down.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20210308190943_add_last_message_to_host_services.up.fizz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soda_binaries/pop_5.3.3_darwin_amd64.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soda_binaries/pop_5.3.3_windows_386.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soda_binaries/pop_5.3.3_windows_amd64.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/401.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-BlackItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-BlackItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-ExtraBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-ExtraBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-ExtraBoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-ExtraBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-ExtraLight-BETA.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-ExtraLight-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-ExtraLightItalic-BETA.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-ExtraLightItalic-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-Light-BETA.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-Light-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-LightItalic-BETA.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-LightItalic-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-MediumItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-MediumItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-SemiBoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-SemiBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-Thin-BETA.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-Thin-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-ThinItalic-BETA.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-ThinItalic-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-italic.var.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter-upright.var.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Inter.var.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/fonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/img/avatars/avatar-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/img/avatars/avatar-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/img/avatars/avatar-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/img/avatars/avatar-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/img/avatars/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/img/icons/icon-48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/img/photos/unsplash-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/img/photos/unsplash-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/img/photos/unsplash-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/js/app.js.LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/js/app.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/js/app.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/js/attention.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/js/pusher.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/error-404-monochrome.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/dashboard.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/events.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/healthy.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/host.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/hosts.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layouts/layout.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/login.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/mail.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/partials/js.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/pending.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/problems.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/schedule.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/settings.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/user.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/users.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/warning.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vodka/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vodka/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vodka/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vodka/.idea/vodka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vodka/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vodka/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vodka/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vodka/handlers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vodka/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vodka/routes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws/.idea/ws.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws/cmd/web/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws/cmd/web/routes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws/html/home.jet" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CNGWzzuG5Go6WtGQgaQkDLgWyZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/Users/koopa/go/src/github.com/koopa0/vigilate",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/cmd" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
